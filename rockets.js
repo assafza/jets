@@ -8,3 +8,7 @@ var Rocket = function (color, size) {
 }
 
 module.exports = Rocket;
+
+this.engageSecondaryEngines  = function () {
+ console.log('Secondary Engines Engaged!');
+};
