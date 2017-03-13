@@ -1,8 +1,5 @@
 // empty constructor function
 
-var Rocket = function (color, size) {
-  this.color = color;
-  this.size = size;
-}
+var rocket = function () {
 
-module.exports = Rocket;
+};

@@ -1,7 +1,10 @@
-var Jet = function (color, size) {
-  this.color = color;
-  this.size = size;
+var Jet = function(color, size) {
+    this.color = color;
+    this.size = size;
+
+    this.fly = function() {
+        console.log('whoosh!');
+    }
 }
-//my bad
 
 module.exports = Jet;
